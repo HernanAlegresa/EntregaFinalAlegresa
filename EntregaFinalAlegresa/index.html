@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DADO ONLINE</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.23/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Dado Online</a>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <h1 class="mb-4">TIRAR EL DADO</h1>
+      <button class="btn btn-primary mb-3" onclick="TirarDado()" id="botonTirar" disabled>Tirar</button>
+
+      <div id="Dado" class="mb-3"></div>
+
+      <h2 class="mb-4">Agregar Persona</h2>
+      <form>
+        <div class="row">
+          <div class="col-md-6">
+            <label for="nombreInput">Nombre:</label>
+            <input type="text" class="form-control mb-3" id="nombreInput">
+          </div>
+          <div class="col-md-6">
+            <label for="edadInput">Edad:</label>
+            <input type="number" class="form-control mb-3" id="edadInput">
+          </div>
+        </div>
+        <button type="button" class="btn btn-success" onclick="agregarPersona()">Agregar Persona</button>
+      </form>
+
+      <ul id="lista-personas" class="list-group mt-4"></ul>
+      <p id="mensaje"></p>
+    </div>
+    
+    <footer>
+      <p>Proyecto Final Curso Coderhouse</p>
+      <p>Creditos al creador:</p>
+      <p>Hernán Alegresa®</p>
+    </footer>
+
+    <script src="SwA2.js"></script>
+    <script src="myscript.js"></script>
+  </body>
+</html>
+  </body>
+</html>

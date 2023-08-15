@@ -1,0 +1,106 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #dbd6d6
+  }
+  
+  
+  h1 {
+    text-align: center;
+    color: #007bff;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: black;
+    font-size: 35px;
+  }
+
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+  #Dado {
+    text-align: center;
+    font-size: 48px;
+    color: #007bff;
+  }
+  
+  
+  form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #007bff;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="button"] {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #28a745;
+  }
+  
+  #lista-personas {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    list-style: none;
+  }
+  
+  .list-group-item {
+    padding: 5px 10px;
+    border: none;
+  }
+  
+  #mensaje {
+    text-align: center;
+    color: #007bff;
+    margin: 10px auto;
+  }
+  
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3266a7;
+    color: #fff;
+    position: static;
+    bottom: 0;
+    width: 100%;
+  }
+  
